@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+// Import functions, variables, and mixins needed by other Bootstrap files
+@import './assets/css/Variable';
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Import Bootstrap Reboot
+@import "~bootstrap/scss/root"; // Contains :root CSS variables used by other Bootstrap files
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/containers"; // Add .container and .container-fluid classes
+@import "~bootstrap/scss/grid"; // Add the grid system
+@import "~bootstrap/scss/utilities"; // Configures the utility classes that should be generated
+@import "~bootstrap/scss/utilities/api"; // Generates the actual utility classes
+
+@import './assets/css/reset';
+
+html { height: 100%; }
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #495057;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    background-image: linear-gradient(147.38deg, #FFFFFF 0%, #86A8C0 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+mat-card {
+    border-radius: 14px !important;
+    box-shadow: 0px 3px 4px rgb(0 0 0 / 10%),
+    0px 24px 36px rgb(0 0 0 / 4%) !important;
+}

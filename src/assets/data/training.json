@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Figma Schulung",
+        "trainer": "Vlad Lemberg",
+        "level": "Anfänger",
+        "time": 1638313200,
+        "location": "TU Berlin"
+    },
+    {
+        "id": 1,
+        "name": "Vue.js Schulung",
+        "trainer": "Thomas Janke",
+        "level": "Fortgeschritten",
+        "time": 1638313200,
+        "location": "TU Berlin"
+    }
+
+]

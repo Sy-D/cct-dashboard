@@ -1,0 +1,24 @@
+<!-- Quicklinks TODO: own component-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let quicklink of quicklinks">
+            <mat-card class="example-card" (click)="navigateTo(quicklink.link)">
+                <mat-card-title-group>
+                  <mat-card-title>{{quicklink.name}}</mat-card-title>
+                  <img mat-card-sm-image [src]="quicklink.imageSrc" >
+                </mat-card-title-group>
+                <mat-card-content>
+                </mat-card-content>
+              </mat-card>
+              
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="row">
+      <app-projects-overview></app-projects-overview>
+    </div>
+    <!--  -->
+    <div class="row">
+      <app-training-overview></app-training-overview>
+    </div>
+</div>

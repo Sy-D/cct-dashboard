@@ -1,0 +1,45 @@
+ul {padding: none;}
+ul, li {list-style-type: none;}
+
+
+.sidebar-container {
+    width: 7rem;
+    overflow: visible;
+    z-index: 999;
+    background: transparent;
+    display: flex;
+    height: calc(100% - 7rem);
+    top: 7rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.286rem;
+    height: 4.268rem;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+    outline: none;
+    transition: background-color 0.2s;
+    border: none;
+    background: transparent;
+}
+
+
+
+button:hover {
+    background: var(--color-white);
+}
+
+.button-active {
+    background: var(--color-white);
+}
+
+mat-icon {
+    font-size: 2rem;
+    color: var(--color-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

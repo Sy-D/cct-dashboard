@@ -1,0 +1,15 @@
+<div class="sidebar-container">
+  <div class="sidebar-menu">
+    <ul *ngIf="!!menuItems">
+      <li *ngFor="let item of menuItems">
+        <button
+          [routerLink]="[item.link]"
+          mat-icon-button
+          matTooltip="{{ item?.name }}"
+          [matTooltipPosition]="'after'">
+          <mat-icon>{{ item.icon }}</mat-icon>
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "client": "McKinsey",
+        "scope": "Konzurrenzenanalyse und Analyse einer Expansion auf dem asiatischen Markt.",
+        "duration": 20,
+        "neededPosition": {
+            "projectManager": 1,
+            "projectMember": 2
+        },
+        "deadline": 1638313200
+    },
+    {
+        "id": 2,
+        "client": "Erdlinks (Start-Up)",
+        "scope": "Erstellung eines Business- und Finanzplans für eine Kreditbeantragung.",
+        "duration": 15,
+        "neededPosition": {
+            "projectManager": 1,
+            "projectMember": 1
+        },
+        "deadline": 1637967600
+    }
+
+]
